@@ -1,0 +1,45 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+/* header section */
+
+header{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  height: 49px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+header img{
+  height: 50px;
+}
+
+header ul li{
+  display: inline;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+header a{
+  color: seashell;
+}
