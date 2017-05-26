@@ -43,3 +43,91 @@ header ul li{
 header a{
   color: seashell;
 }
+
+/* mision statement section */
+
+#mission{
+  background-image: url("/Users/tanimitsch/Documents/Design Stuff/Codecademy/Projects/Tea Cozy/resources/images/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement{
+  background-color: black;
+  flex-grow: 1;
+}
+
+/* store section */
+
+#store{
+  width: 1000px;
+}
+
+#store .container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#store .tea img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#store .tea span{
+  font-weight: bold;
+  display: block;
+}
+
+/* locations section */
+
+#locations{
+  background-image: url("/Users/tanimitsch/Documents/Design Stuff/Codecademy/Projects/Tea Cozy/resources/images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+}
+
+#locations .container{
+  display: flex;
+  justify-content: center;
+}
+
+#locations h2{
+  padding-top: 60px;
+}
+
+#locations .location{
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/* locations section */
+
+#contact{
+  height: 200px;
+}
+
+/* footer */
+
+footer{
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* center align content */
+
+#mission, #store, #locations{
+  margin: 0px auto;
+}
